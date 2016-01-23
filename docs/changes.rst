@@ -8,6 +8,9 @@ Release History
 
 * Normalize letter case for prefix path checking. Fixes :issue:`837`
 
+* Remove the `virtualenv-N.N` script from the package; this can no longer be correctly created from a wheel installation.
+  Solves :issue:`851`
+
 14.0.1 (2016-01-21)
 -------------------
 
