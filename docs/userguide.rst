@@ -47,6 +47,15 @@ On Posix systems, this resides in :file:`/ENV/bin/`, so you can run::
 For some shells (e.g. the original Bourne Shell) you may need to use the
 :command:`.` command, when :command:`source` does not exist.
 
+For certain shells like Fish or C shell, run:
+    
+    $ source bin/activate.fish
+
+or
+
+    $ source bin/activate.csh
+
+
 This will change your ``$PATH`` so its first entry is the virtualenv's
 ``bin/`` directory. (You have to use ``source`` because it changes your
 shell environment in-place.) This is all it does; it's purely a
